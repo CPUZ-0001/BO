@@ -7,7 +7,7 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-NGROK_AUTH_TOKEN = "2rRfSEAa6nREyPptqSxGf0cKdi6_7F38iZfMqV8EVafcrkrwE"
+NGROK_AUTH_TOKEN = "2sfehiPAmqaxoT7P7MmqXch6232_65QqaeLcF2art5WXnvZsb"
 ngrok.set_auth_token(NGROK_AUTH_TOKEN)
 
 client = MongoClient("mongodb+srv://BlackHat:Ultimate@cluster0.zvh6z.mongodb.net/BOT?retryWrites=true&w=majority&appName=Cluster0")
